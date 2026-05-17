@@ -40,3 +40,31 @@ mvnw clean package -DskipTest
 ```
 
 3. Levantar los contenedores
+```bash
+docker-compose up --build
+```
+4. Acceder a los servicios
+
+<li>Eureka Server:</li>
+http://localhost:8761
+
+<li>Api Gateway</li>
+http://localhost:8080
+
+# Endpoints 
+
+## Obtener productos
+GET/products
+
+## Obtener usuarios
+GET/users
+
+## Comunicación entre microservicios
+GET/user/product{id}
+
+# Docker
+<p>El proyecto utiliza Docker Compose para levantar todos los servicios cpn un solo comando.</p>
+<p>Cada microservicio está contenido en su propio contenedor, incluyendo la base de datos</p>
+
+## Este proyecto desarrollado como práctica de arquitectura de microservicio.
+## Este proyecto es de uso educativo
