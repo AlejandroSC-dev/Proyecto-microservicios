@@ -66,5 +66,16 @@ GET/user/product{id}
 <p>El proyecto utiliza Docker Compose para levantar todos los servicios cpn un solo comando.</p>
 <p>Cada microservicio está contenido en su propio contenedor, incluyendo la base de datos</p>
 
+# Vista previa
+![](./images/Servidor-Eureka.png)
+
+![](./images/Contenedores.png)
+
+![Petición para ver la lista de Productos](./images/Peticion%20productos.png)
+
+![Petición para ver la lista de Usuarios](./images/Peticion%20Usuarios.png)
+
+![Comunicación entre microservicios](./images/Comunicación%20entre%20microservicios.png)
+
 ## Este proyecto desarrollado como práctica de arquitectura de microservicio.
 ## Este proyecto es de uso educativo
